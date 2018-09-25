@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "OfficinaSerifBook";
+    src: local("OfficinaSerifBook"),
+        url(fonts/OfficinaSerifBook.woff) format("woff");
+}
+
+@font-face {
+    font-family: "OfficinaSerifBook";
+    font-style: italic;
+    src: local("OfficinaSerifBookItalic"),
+        url(fonts/OfficinaSerifBookItalic.woff) format("woff");
+}
+
+@import "style/variables.scss";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap.scss";
